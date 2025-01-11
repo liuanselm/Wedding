@@ -1,0 +1,38 @@
+body{
+    background-color: #071c07;
+}
+
+#title{
+    text-align: center;
+    font-family: "Fleur De Leah", serif;
+    font-size: 100px;
+    color: #f6eee3;
+    border-bottom: 1px #f6eee3;
+    border-bottom-style:solid;
+}
+
+#quicklinks-wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.quicklink{
+    padding: 15px;
+    font-family: "Radley", serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: #f6eee3;
+}
+
+.question-wrapper{
+    padding: 50px;
+}
+
+.question, .answer{
+    font-family: "Fleur De Leah", serif;
+    font-size: 25px;
+    color: #f6eee3;
+}

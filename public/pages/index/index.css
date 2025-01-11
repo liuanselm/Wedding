@@ -1,0 +1,61 @@
+body{
+    background-color: #9fbe8f;
+}
+
+#title-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    text-align: center;
+    font-family: "Fleur De Leah", serif;
+    font-size: 100px;
+    color: #070a05;
+    border-bottom: 1px #070a05;
+    border-bottom-style:solid;
+    text-shadow: 1px 1px 2px black;
+}
+
+#quicklinks-wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.quicklink{
+    padding: 15px;
+    font-family: "Radley", serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: #070a05;
+}
+
+#info-wrapper{
+    height: auto;
+    background-color: #071c07;
+    text-align: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info1{
+    font-family: "Radley", serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #f6eee3;
+}
+
+.info2{
+    font-family: "Fleur De Leah", serif;
+    font-size: 100px;
+    color: #f6eee3;
+}
