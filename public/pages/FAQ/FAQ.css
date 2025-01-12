@@ -29,10 +29,18 @@ body{
 
 .question-wrapper{
     padding: 50px;
+    margin-left: 50px;
 }
 
-.question, .answer{
+.question{
     font-family: "Fleur De Leah", serif;
     font-size: 25px;
     color: #f6eee3;
+}
+
+.answer{
+    font-family: "Fleur De Leah", serif;
+    font-size: 25px;
+    color: #9fbe8f;
+    text-decoration: none;
 }
